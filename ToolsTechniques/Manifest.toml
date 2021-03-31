@@ -706,6 +706,12 @@ git-tree-sha1 = "4fc52b7dd9c8f6d3a98e686ffb7b9d553f8b2de7"
 uuid = "03970b2e-30c4-11ea-3135-d1576263f10f"
 version = "0.6.4"
 
+[[MLJXGBoostInterface]]
+deps = ["MLJModelInterface", "Tables", "XGBoost"]
+git-tree-sha1 = "31ccb6b933dc2147805bc74662abd9f8c9d45da3"
+uuid = "54119dfa-1dab-4055-a167-80440f4f7a91"
+version = "0.1.2"
+
 [[MacroTools]]
 deps = ["Markdown", "Random"]
 git-tree-sha1 = "6a8a2a625ab0dea913aba95c11370589e0239ff0"
@@ -1173,6 +1179,18 @@ deps = ["LinearAlgebra", "SparseArrays"]
 git-tree-sha1 = "59e2ad8fd1591ea019a5259bd012d7aee15f995c"
 uuid = "efce3f68-66dc-5838-9240-27a6d6f5f9b6"
 version = "0.5.3"
+
+[[XGBoost]]
+deps = ["Libdl", "Printf", "Random", "SparseArrays", "Statistics", "Test", "XGBoost_jll"]
+git-tree-sha1 = "8a692f817f1a6c15ef4913a0ffefa6163117f43d"
+uuid = "009559a3-9522-5dbb-924b-0b6ed2b22bb9"
+version = "1.1.1"
+
+[[XGBoost_jll]]
+deps = ["CompilerSupportLibraries_jll", "Libdl", "Pkg"]
+git-tree-sha1 = "901ff35c4f56d4eba54e3533ee916bb72dcfb813"
+uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
+version = "1.2.0+0"
 
 [[XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
