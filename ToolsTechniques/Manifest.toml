@@ -682,6 +682,12 @@ git-tree-sha1 = "2ab78b7da36b3a76150488087575bab8542970e8"
 uuid = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 version = "0.17.7"
 
+[[MLJDecisionTreeInterface]]
+deps = ["DecisionTree", "MLJModelInterface"]
+git-tree-sha1 = "555f3a395a2d13bcb904333aee7d0ccaf76f3167"
+uuid = "c6f25543-311c-4c74-83dc-3ea6d1015661"
+version = "0.1.1"
+
 [[MLJModelInterface]]
 deps = ["Random", "ScientificTypes", "StatisticalTraits"]
 git-tree-sha1 = "96dedd0ca1b75624ff180b265257f3c168047cda"
